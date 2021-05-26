@@ -1,10 +1,5 @@
 
-const  myObject = () => ({
+const { joe } = require("./person");
+const { cat } = require("./animal");
 
-        "name": "Joe",
-        "age": 20,
-        "gender": "male",
-        "isAdult": true
-});
-
-module.exports.myObject = myObject;
+module.exports = { joe, cat };
